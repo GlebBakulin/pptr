@@ -1,0 +1,21 @@
+{
+  "name": "pptr",
+  "version": "1.0.0",
+  "description": "Test project with puppeteer and rabbitMQ",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "puppeteer",
+    "RabbitMQ"
+  ],
+  "author": "hardevzip@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "micromq": "^3.0.2",
+    "puppeteer": "^19.8.0"
+  }
+}
